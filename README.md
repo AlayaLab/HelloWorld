@@ -23,3 +23,7 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
 ## Code & Benchmark
 
 Coming soon.
+
+## Contact
+
+For questions, please contact oyly@iis.u-tokyo.ac.jp or liangyang.ouyang@shanda.com.
