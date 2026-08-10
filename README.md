@@ -24,6 +24,10 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
 
 Coming soon.
 
+## Unofficial Reproduction
+
+Many thanks to [ScrappyLabs](https://github.com/scrappylabsai) for independently reproducing HelloWorld and open-sourcing their trained model — see [scrappylabsai/helloworld-interactor](https://github.com/scrappylabsai/helloworld-interactor) and the released LoRA on [Hugging Face](https://huggingface.co/scrappylabsai/helloworld-interactor-lora). We are glad to see that their results align well with the paper. Our official release is in progress; in the meantime, feel free to try their model.
+
 ## Contact
 
 For questions, please contact oyly@iis.u-tokyo.ac.jp or liangyang.ouyang@shanda.com.
