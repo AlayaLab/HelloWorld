@@ -18,7 +18,9 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
 
 ## Demo Video
 
-▶️ [HelloWorld.mp4](assets/HelloWorld.mp4)
+[![Watch the demo on YouTube](assets/video_cover.png)](https://youtu.be/j4scl5Y7gXo)
+
+▶️ Watch on [YouTube](https://youtu.be/j4scl5Y7gXo) &nbsp;·&nbsp; 📥 Download: [HelloWorld.mp4](assets/HelloWorld.mp4) (35 MB, 1080p)
 
 ## Code & Benchmark
 
