@@ -12,6 +12,45 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
 - **Training-free temporal control:** at inference, a temporal cross-attention mask localizes the character's response to the `F`-press window.
 - **HelloWorldBench:** a 400-sample benchmark with three social interaction metrics (ActAcc, TimeAcc, GazeDev) alongside three conventional metrics.
 
+## Examples
+
+<table>
+  <tr>
+    <td width="50%" align="center"><h3>Warp Video Condition</h3></td>
+    <td width="50%" align="center"><h3>HelloWorld Generation</h3></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>A woman on a garden bench turns around and waves ("Hi") while the camera dollies in and orbits right:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/garden_pond.gif" alt="garden_pond"></td>
+  </tr>
+</table>
+
+*Two hikers turn and raise a thumbs-up ("Good!") while the camera rides a 30° orbit:*
+
+![lakeside_hikers](assets/gifs/lakeside_hikers.gif)
+
+*A woman doing yoga presses her palms together and bows ("Namaste") during a left–right camera scan:*
+
+![park_yoga](assets/gifs/park_yoga.gif)
+
+*Two anime figurines come alive, raise one hand and wave ("Hello!") as the camera orbits left and pushes in:*
+
+![anime_figures](assets/gifs/anime_figures.gif)
+
+*A crow turns to the viewer, spreads its wings and caws while the camera orbits left:*
+
+![moor_crows](assets/gifs/moor_crows.gif)
+
+*A bear mascot forms a heart with its arms during a right–left camera scan:*
+
+![bear_mascot](assets/gifs/bear_mascot.gif)
+
+*A skeleton prop turns its skull and waves while the camera orbits left:*
+
+![shore_skeleton](assets/gifs/shore_skeleton.gif)
+
 ## Paper
 
 📄 [HelloWorld.pdf](assets/HelloWorld.pdf)
@@ -22,7 +61,25 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
 
 ▶️ Watch on [YouTube](https://youtu.be/j4scl5Y7gXo) &nbsp;·&nbsp; 📥 Download: [HelloWorld.mp4](assets/HelloWorld.mp4) (35 MB, 1080p)
 
-## Code & Benchmark
+## Code & Model
+
+Inference code is in [`inference/`](inference) — see its [README](inference/README.md)
+for environment setup (pinned requirements in [`env/`](env)), model weights, and the
+full camera / interaction interface. The trained LoRA is on Hugging Face:
+[`oyly/HelloWorld_V1`](https://huggingface.co/oyly/HelloWorld_V1). Ready-to-reproduce
+examples (inputs + full recipes) are in [`assets/examples/`](assets/examples).
+
+```bash
+cd inference
+bash run_helloworld.sh                          # single clip
+INPUT=examples_batch.json bash run_batch.sh     # reproduce the bundled examples
+```
+
+## Training Code
+
+Coming soon.
+
+## Benchmark
 
 Coming soon.
 

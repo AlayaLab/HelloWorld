@@ -1,0 +1,17 @@
+# "ltx" env — LTX-2.3 video generation (Python 3.12, CUDA 12.6).
+# ltx-core / ltx-pipelines come from the official Lightricks LTX-2 repo:
+#   git clone https://github.com/Lightricks/LTX-2 && pip install -e LTX-2/packages/ltx-core -e LTX-2/packages/ltx-pipelines
+# Full reference freeze: freeze_ltx_full.txt
+torch==2.12.0
+torchvision==0.27.0
+torchaudio==2.11.0
+transformers==4.57.6
+accelerate==1.13.0
+safetensors==0.7.0
+sentencepiece==0.2.1
+einops==0.8.2
+numpy==2.4.6
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+av==17.0.1
+pillow==12.2.0

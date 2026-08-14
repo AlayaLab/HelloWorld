@@ -1,0 +1,14 @@
+# "warp" env — camera-trajectory build + Pi3X warp render (Python 3.10, CUDA 12.4).
+# The Pi3X warp package (`pi3`) is installed from the Warp-as-History repo
+# (see README: third_party/warp-as-history) together with its own requirements.
+# Full reference freeze: freeze_warp_full.txt
+torch==2.5.1
+torchvision==0.20.1
+numpy==1.26.4
+opencv-python==4.11.0.86
+scipy==1.15.3
+einops==0.8.2
+imageio==2.37.3
+imageio-ffmpeg==0.6.0
+pillow==12.2.0
+plyfile==1.1.3

@@ -1,0 +1,20 @@
+[
+  {
+    "action": "w+d+left",
+    "n": 12,
+    "start": 1,
+    "end": 97
+  },
+  {
+    "action": "hold",
+    "n": 6,
+    "start": 97,
+    "end": 145
+  },
+  {
+    "action": "s+a+right",
+    "n": 12,
+    "start": 145,
+    "end": 241
+  }
+]

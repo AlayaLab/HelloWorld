@@ -1,0 +1,17 @@
+{
+  "name": "bear_mascot",
+  "image": "input.jpg",
+  "text_prompt": "A person in a bear mascot costume stands on building steps, facing the viewer. Eye-level shot. In the first moments, the mascot forms a big heart shape with its arms toward the viewer. It otherwise holds a relaxed pose.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    0.0,
+    4.0
+  ],
+  "interaction_prompt": "the mascot forms a big heart shape with its arms toward the viewer",
+  "interaction_speech": "",
+  "enable_audio": false,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": false,
+  "seed": 436963695
+}

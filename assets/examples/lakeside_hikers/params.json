@@ -1,0 +1,17 @@
+{
+  "name": "lakeside_hikers",
+  "image": "input.jpg",
+  "text_prompt": "Two hikers standing at the grassy edge of a lake under a cloudy sky, a woman with a backpack and a man in an orange shirt. Eye-level long take. Midway through the shot, the hikers turn their faces toward the viewer and raise a thumbs-up toward the camera with bright friendly smiles, brightly calling out 'Good!' in cheerful approval. These are the only people in the scene; the surroundings are open and calm. They hold a relaxed photo pose, bodies settled and steady, gesturing with their hands. Photoreal, natural lighting.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    4.0,
+    7.0
+  ],
+  "interaction_prompt": "raise a thumbs-up",
+  "interaction_speech": "'Good!'",
+  "enable_audio": true,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": true,
+  "seed": 1234
+}

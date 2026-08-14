@@ -1,0 +1,20 @@
+[
+  {
+    "action": "left",
+    "n": 8,
+    "start": 1,
+    "end": 65
+  },
+  {
+    "action": "right",
+    "n": 15,
+    "start": 65,
+    "end": 185
+  },
+  {
+    "action": "left",
+    "n": 7,
+    "start": 185,
+    "end": 241
+  }
+]

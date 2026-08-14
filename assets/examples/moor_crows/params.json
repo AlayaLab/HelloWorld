@@ -1,0 +1,17 @@
+{
+  "name": "moor_crows",
+  "image": "input.jpg",
+  "text_prompt": "Several black crows perch along a wire fence crossing a grassy coastal moor under a blue sky. Eye-level shot. In the first moments, the nearest crow turns toward the viewer, spreads and flaps its wings and caws. Otherwise it stays calm and still. Photoreal, bright natural light.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    0.0,
+    4.0
+  ],
+  "interaction_prompt": "the nearest crow turns toward the viewer, spreads and flaps its wings and caws",
+  "interaction_speech": "caw",
+  "enable_audio": true,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": true,
+  "seed": 740913099
+}

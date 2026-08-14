@@ -1,1 +1,7 @@
 .DS_Store
+__pycache__/
+*.pyc
+inference/outputs/
+checkpoints/
+third_party/
+work/

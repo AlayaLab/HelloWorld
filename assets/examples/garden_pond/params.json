@@ -1,0 +1,17 @@
+{
+  "name": "garden_pond",
+  "image": "input.png",
+  "text_prompt": "Two people sit on separate benches at the edge of a tranquil pond, their backs to the viewer (Nara-style park). Near the end, the woman on the right bench swings her legs around, turning her whole body to sit facing the viewer, and waves with a warm smile, saying \"Hi\". The man on the far bench stays still.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    6.0,
+    10.0
+  ],
+  "interaction_prompt": "the woman on the right bench swings her legs around, turning her whole body to sit facing the viewer, and waves with a warm smile",
+  "interaction_speech": "Hi",
+  "enable_audio": true,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": true,
+  "seed": 1245122882
+}

@@ -1,0 +1,17 @@
+{
+  "name": "shore_skeleton",
+  "image": "input.jpg",
+  "text_prompt": "A human-skeleton prop sits on rocks beside still water. Eye-level shot. Midway through the shot, the skeleton turns its skull toward the viewer and raises a bony hand in a wave. Otherwise it stays still. Photoreal, flat daylight.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    4.0,
+    7.0
+  ],
+  "interaction_prompt": "the skeleton turns its skull toward the viewer and raises a bony hand in a wave",
+  "interaction_speech": "",
+  "enable_audio": false,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": false,
+  "seed": 2094299836
+}

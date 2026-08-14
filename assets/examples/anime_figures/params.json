@@ -1,0 +1,17 @@
+{
+  "name": "anime_figures",
+  "image": "input.jpg",
+  "text_prompt": "Two anime girl figurines on a glossy display shelf: a blonde girl in a black tactical sailor outfit with red-and-white striped stockings in the center, and another blonde figurine in similar tactical attire to the right, stylised packaging behind them. Halfway through the shot, the two anime figurines pause, turn their faces toward the camera, and raise one hand to wave hello warmly with bright friendly smiles, brightly calling out 'Hello!' in cheerful greeting, then they return to their poses. Eye-level long take with a slow push-in framing. Photoreal, natural lighting.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    4.0,
+    7.0
+  ],
+  "interaction_prompt": "wave hello",
+  "interaction_speech": "'Hello!'",
+  "enable_audio": true,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": true,
+  "seed": 43
+}

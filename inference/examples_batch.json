@@ -1,0 +1,132 @@
+{
+  "config": {
+    "output_root": "outputs/examples",
+    "gpu": 0,
+    "lora_ckpt": "../checkpoints/helloworld_lora_v1.safetensors"
+  },
+  "defaults": {
+    "with_ui": true,
+    "with_warp": true
+  },
+  "items": [
+    {
+      "name": "garden_pond",
+      "image": "../assets/examples/garden_pond/input.png",
+      "camera_poses": "../assets/examples/garden_pond/camera_poses.npz",
+      "phases": "../assets/examples/garden_pond/phases.json",
+      "text_prompt": "Two people sit on separate benches at the edge of a tranquil pond, their backs to the viewer (Nara-style park). Near the end, the woman on the right bench swings her legs around, turning her whole body to sit facing the viewer, and waves with a warm smile, saying \"Hi\". The man on the far bench stays still.",
+      "interaction_time": [
+        6.0,
+        10.0
+      ],
+      "interaction_prompt": "the woman on the right bench swings her legs around, turning her whole body to sit facing the viewer, and waves with a warm smile",
+      "interaction_speech": "Hi",
+      "enable_audio": true,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": true,
+      "seed": 1245122882
+    },
+    {
+      "name": "park_yoga",
+      "image": "../assets/examples/park_yoga/input.jpg",
+      "camera_poses": "../assets/examples/park_yoga/camera_poses.npz",
+      "phases": "../assets/examples/park_yoga/phases.json",
+      "text_prompt": "A woman holds a yoga pose on the grass in a park, facing the viewer. Eye-level shot. In the first moments, the woman presses her palms together and bows toward the viewer, saying \"Namaste\". She otherwise holds a relaxed, steady pose.",
+      "interaction_time": [
+        0.0,
+        4.0
+      ],
+      "interaction_prompt": "the woman presses her palms together and bows toward the viewer",
+      "interaction_speech": "Namaste",
+      "enable_audio": true,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": true,
+      "seed": 689963337
+    },
+    {
+      "name": "anime_figures",
+      "image": "../assets/examples/anime_figures/input.jpg",
+      "camera_poses": "../assets/examples/anime_figures/camera_poses.npz",
+      "phases": "../assets/examples/anime_figures/phases.json",
+      "text_prompt": "Two anime girl figurines on a glossy display shelf: a blonde girl in a black tactical sailor outfit with red-and-white striped stockings in the center, and another blonde figurine in similar tactical attire to the right, stylised packaging behind them. Halfway through the shot, the two anime figurines pause, turn their faces toward the camera, and raise one hand to wave hello warmly with bright friendly smiles, brightly calling out 'Hello!' in cheerful greeting, then they return to their poses. Eye-level long take with a slow push-in framing. Photoreal, natural lighting.",
+      "interaction_time": [
+        4.0,
+        7.0
+      ],
+      "interaction_prompt": "wave hello",
+      "interaction_speech": "'Hello!'",
+      "enable_audio": true,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": true,
+      "seed": 43
+    },
+    {
+      "name": "moor_crows",
+      "image": "../assets/examples/moor_crows/input.jpg",
+      "camera_poses": "../assets/examples/moor_crows/camera_poses.npz",
+      "phases": "../assets/examples/moor_crows/phases.json",
+      "text_prompt": "Several black crows perch along a wire fence crossing a grassy coastal moor under a blue sky. Eye-level shot. In the first moments, the nearest crow turns toward the viewer, spreads and flaps its wings and caws. Otherwise it stays calm and still. Photoreal, bright natural light.",
+      "interaction_time": [
+        0.0,
+        4.0
+      ],
+      "interaction_prompt": "the nearest crow turns toward the viewer, spreads and flaps its wings and caws",
+      "interaction_speech": "caw",
+      "enable_audio": true,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": true,
+      "seed": 740913099
+    },
+    {
+      "name": "bear_mascot",
+      "image": "../assets/examples/bear_mascot/input.jpg",
+      "camera_poses": "../assets/examples/bear_mascot/camera_poses.npz",
+      "phases": "../assets/examples/bear_mascot/phases.json",
+      "text_prompt": "A person in a bear mascot costume stands on building steps, facing the viewer. Eye-level shot. In the first moments, the mascot forms a big heart shape with its arms toward the viewer. It otherwise holds a relaxed pose.",
+      "interaction_time": [
+        0.0,
+        4.0
+      ],
+      "interaction_prompt": "the mascot forms a big heart shape with its arms toward the viewer",
+      "interaction_speech": "",
+      "enable_audio": false,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": false,
+      "seed": 436963695
+    },
+    {
+      "name": "shore_skeleton",
+      "image": "../assets/examples/shore_skeleton/input.jpg",
+      "camera_poses": "../assets/examples/shore_skeleton/camera_poses.npz",
+      "phases": "../assets/examples/shore_skeleton/phases.json",
+      "text_prompt": "A human-skeleton prop sits on rocks beside still water. Eye-level shot. Midway through the shot, the skeleton turns its skull toward the viewer and raises a bony hand in a wave. Otherwise it stays still. Photoreal, flat daylight.",
+      "interaction_time": [
+        4.0,
+        7.0
+      ],
+      "interaction_prompt": "the skeleton turns its skull toward the viewer and raises a bony hand in a wave",
+      "interaction_speech": "",
+      "enable_audio": false,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": false,
+      "seed": 2094299836
+    },
+    {
+      "name": "lakeside_hikers",
+      "image": "../assets/examples/lakeside_hikers/input.jpg",
+      "camera_poses": "../assets/examples/lakeside_hikers/camera_poses.npz",
+      "phases": "../assets/examples/lakeside_hikers/phases.json",
+      "text_prompt": "Two hikers standing at the grassy edge of a lake under a cloudy sky, a woman with a backpack and a man in an orange shirt. Eye-level long take. Midway through the shot, the hikers turn their faces toward the viewer and raise a thumbs-up toward the camera with bright friendly smiles, brightly calling out 'Good!' in cheerful approval. These are the only people in the scene; the surroundings are open and calm. They hold a relaxed photo pose, bodies settled and steady, gesturing with their hands. Photoreal, natural lighting.",
+      "interaction_time": [
+        4.0,
+        7.0
+      ],
+      "interaction_prompt": "raise a thumbs-up",
+      "interaction_speech": "'Good!'",
+      "enable_audio": true,
+      "enable_videotemporalmask": true,
+      "enable_audiotemporalmask": true,
+      "seed": 1234
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "action": "w+a+right",
+    "n": 15,
+    "start": 1,
+    "end": 121
+  },
+  {
+    "action": "w",
+    "n": 11,
+    "start": 121,
+    "end": 206
+  },
+  {
+    "action": "right",
+    "n": 2,
+    "start": 206,
+    "end": 224
+  },
+  {
+    "action": "left",
+    "n": 2,
+    "start": 224,
+    "end": 241
+  }
+]

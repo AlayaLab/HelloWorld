@@ -1,0 +1,17 @@
+{
+  "name": "park_yoga",
+  "image": "input.jpg",
+  "text_prompt": "A woman holds a yoga pose on the grass in a park, facing the viewer. Eye-level shot. In the first moments, the woman presses her palms together and bows toward the viewer, saying \"Namaste\". She otherwise holds a relaxed, steady pose.",
+  "camera_poses": "camera_poses.npz",
+  "phases": "phases.json",
+  "interaction_time": [
+    0.0,
+    4.0
+  ],
+  "interaction_prompt": "the woman presses her palms together and bows toward the viewer",
+  "interaction_speech": "Namaste",
+  "enable_audio": true,
+  "enable_videotemporalmask": true,
+  "enable_audiotemporalmask": true,
+  "seed": 689963337
+}
