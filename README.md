@@ -87,13 +87,13 @@ bash run_helloworld.sh                          # single clip
 INPUT=examples_batch.json bash run_batch.sh     # reproduce the bundled examples
 ```
 
-## Training Code
+## Release Schedule
 
-Coming soon.
-
-## Benchmark
-
-Coming soon.
+- [x] Demo release
+- [x] Model release
+- [x] Inference code release
+- [ ] Training code release
+- [ ] Benchmark release
 
 ## Unofficial Reproduction
 
