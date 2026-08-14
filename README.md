@@ -25,31 +25,43 @@ Liangyang Ouyang<sup>1,2</sup>, Ruicong Liu<sup>2</sup>, Xuangeng Chu<sup>2</sup
   <tr>
     <td colspan="2"><img src="assets/gifs/garden_pond.gif" alt="garden_pond"></td>
   </tr>
+  <tr>
+    <td colspan="2"><em>Two hikers turn and raise a thumbs-up ("Good!") while the camera rides a 30° orbit:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/lakeside_hikers.gif" alt="lakeside_hikers"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>A woman doing yoga presses her palms together and bows ("Namaste") during a left–right camera scan:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/park_yoga.gif" alt="park_yoga"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>Two anime figurines come alive, raise one hand and wave ("Hello!") as the camera orbits left and pushes in:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/anime_figures.gif" alt="anime_figures"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>A crow turns to the viewer, spreads its wings and caws while the camera orbits left:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/moor_crows.gif" alt="moor_crows"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>A bear mascot forms a heart with its arms during a right–left camera scan:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/bear_mascot.gif" alt="bear_mascot"></td>
+  </tr>
+  <tr>
+    <td colspan="2"><em>A skeleton prop turns its skull and waves while the camera orbits left:</em></td>
+  </tr>
+  <tr>
+    <td colspan="2"><img src="assets/gifs/shore_skeleton.gif" alt="shore_skeleton"></td>
+  </tr>
 </table>
-
-*Two hikers turn and raise a thumbs-up ("Good!") while the camera rides a 30° orbit:*
-
-![lakeside_hikers](assets/gifs/lakeside_hikers.gif)
-
-*A woman doing yoga presses her palms together and bows ("Namaste") during a left–right camera scan:*
-
-![park_yoga](assets/gifs/park_yoga.gif)
-
-*Two anime figurines come alive, raise one hand and wave ("Hello!") as the camera orbits left and pushes in:*
-
-![anime_figures](assets/gifs/anime_figures.gif)
-
-*A crow turns to the viewer, spreads its wings and caws while the camera orbits left:*
-
-![moor_crows](assets/gifs/moor_crows.gif)
-
-*A bear mascot forms a heart with its arms during a right–left camera scan:*
-
-![bear_mascot](assets/gifs/bear_mascot.gif)
-
-*A skeleton prop turns its skull and waves while the camera orbits left:*
-
-![shore_skeleton](assets/gifs/shore_skeleton.gif)
 
 ## Paper
 
