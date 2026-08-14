@@ -99,6 +99,17 @@ INPUT=examples_batch.json bash run_batch.sh     # reproduce the bundled examples
 
 Many thanks to [ScrappyLabs](https://github.com/scrappylabsai) for independently reproducing HelloWorld and open-sourcing their trained model — see [scrappylabsai/helloworld-interactor](https://github.com/scrappylabsai/helloworld-interactor) and the released LoRA on [Hugging Face](https://huggingface.co/scrappylabsai/helloworld-interactor-lora). We are glad to see that their results align well with the paper. Our official release is in progress; in the meantime, feel free to try their model.
 
+## Citation
+
+```bibtex
+@article{ouyang2026helloworld,
+  title   = {HelloWorld: Enabling Socially Interactive Characters in Video World Models},
+  author  = {Ouyang, Liangyang and Liu, Ruicong and Chu, Xuangeng and Zhang, Kaipeng and Sato, Yoichi},
+  journal = {arXiv preprint arXiv:2608.05070},
+  year    = {2026}
+}
+```
+
 ## Contact
 
 For questions, please contact oyly@iis.u-tokyo.ac.jp or liangyang.ouyang@shanda.com.
