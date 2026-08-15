@@ -5,3 +5,5 @@ inference/outputs/
 checkpoints/
 third_party/
 work/
+train/data/
+train/runs/

@@ -1,6 +1,8 @@
-# "ltx" env — LTX-2.3 video generation (Python 3.12, CUDA 12.6).
-# ltx-core / ltx-pipelines come from the official Lightricks LTX-2 repo:
-#   git clone https://github.com/Lightricks/LTX-2 && pip install -e LTX-2/packages/ltx-core -e LTX-2/packages/ltx-pipelines
+# "ltx" env — LTX-2.3 video generation + LoRA training (Python 3.12, CUDA 12.6).
+# ltx-core / ltx-pipelines / ltx-trainer come from the official Lightricks LTX-2 repo:
+#   git clone https://github.com/Lightricks/LTX-2 && pip install -e LTX-2/packages/ltx-core \
+#     -e LTX-2/packages/ltx-pipelines -e LTX-2/packages/ltx-trainer
+# One env covers inference AND training — no separate training env needed.
 # Full reference freeze: freeze_ltx_full.txt
 torch==2.12.0
 torchvision==0.27.0
@@ -15,3 +17,4 @@ imageio==2.37.3
 imageio-ffmpeg==0.6.0
 av==17.0.1
 pillow==12.2.0
+peft==0.19.1

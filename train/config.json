@@ -1,0 +1,23 @@
+{
+  "prompts_tsv": "prompts.tsv",
+  "generation": {
+    "retries_per_prompt": 4,
+    "gpus": "0",
+    "offload": "none"
+  },
+  "filters": {
+    "fade_gate": true,
+    "cast_gate": true,
+    "warp_visibility": true,
+    "subject_motion": true,
+    "fade_threshold": 0.7,
+    "visibility_threshold": 0.65
+  },
+  "lora": {
+    "rank": 32,
+    "max_steps": 2000,
+    "learning_rate": 0.0001,
+    "save_every": 500,
+    "warp_lambda_max": 0.5
+  }
+}

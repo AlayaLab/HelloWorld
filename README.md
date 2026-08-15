@@ -87,12 +87,21 @@ bash run_helloworld.sh                          # single clip
 INPUT=examples_batch.json bash run_batch.sh     # reproduce the bundled examples
 ```
 
+## Training
+
+Training code is in [`train/`](train) — see its [README](train/README.md). The
+training data is fully synthetic (LTX-2.3 text-to-video), so there is no dataset
+to download: `bash train/run_train.sh` reproduces `helloworld_lora_v1` end to
+end, and retraining on your own scenes or characters is a matter of editing
+[`train/prompts.tsv`](train/prompts.tsv) (all other knobs live in
+[`train/config.json`](train/config.json)).
+
 ## Release Schedule
 
 - [x] Demo release
 - [x] Model release
 - [x] Inference code release
-- [ ] Training code release
+- [x] Training code release
 - [ ] Benchmark release
 
 ## Unofficial Reproduction
